@@ -1,0 +1,258 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 23%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 45.8%;}
+.col-7 {width: 56.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/gif_star.gif);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+header{
+    height: 300px;
+    border: 2px solid rgb(0,0,0);
+    background-color: rgb(216, 5, 107);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+#sec-h1{
+    float: left;
+    height: 170px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgb(226, 226, 226);
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 100%;
+    background-image: url(img/AvatarMaker.png);
+    background-size: 100% 100%;
+}
+
+#sec-h2{
+    float: right;
+    height: 50px;
+    border: 1px rgb(0,0,0) solid;
+    background-color: rgb(226, 226, 226);
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+p{
+    font-family: cursive;
+    font-size: 17pt;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+nav{
+    height: 90px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(216, 5, 107, 0);
+    margin: auto;
+    margin-top: 10px;
+}
+
+.sec-n{
+    float: left;
+    height: 80px;
+    border: 1px solid rgb(0,0,0);
+    margin-top: 4px;
+    margin-left: 30px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 50px;
+}
+
+main{
+    height: 560px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(216, 5, 107, 0);
+    margin: auto;
+    margin-top: 10px;
+}
+
+aside{
+    height: 550px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgb(226, 226, 226);
+    margin-top: 4px;
+    border-radius: 25px;
+}
+
+#a1{
+    float: left;
+    margin-left: 4px;
+    background-color: rgb(216, 5, 107);
+}
+
+#a2:hover{
+    background-color: rgb(216, 5, 107);
+    background-image: url(img/avatar-corpo.png);
+    background-size: 100% 100%;
+}
+
+.sec-a{
+    height: 230px;
+    border: 1px rgb(0,0,0) solid;
+    background-color: rgb(216, 5, 107);
+    margin-top: 30px;
+    margin-left: 23px;
+}
+
+#sec-01{
+    background-image: url(img/avatar.png);
+    background-size: 110% 110%;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#sec-02{
+    background-color: rgb(255, 255, 255);
+}
+
+#sec-02:hover{
+    background-image: url(img/errou.jpg);
+    background-size: 100% 100%;
+}
+
+#a2{
+    float: right;
+    margin-right: 10px;
+    margin-top: -1px;
+    margin-left: 5px;
+}
+
+article{
+    float: right;
+    height: 550px;
+    border: 1px solid rgb(0,0,0);
+    margin-top: 4px;
+    background-color: rgba(226, 226, 226, 0);
+    border-radius: 25px;
+}
+
+#art{
+    float: right;
+    margin-right: 5px;
+}
+
+#art-art1{
+    float: left;
+    margin-left: 10px;
+    background-color: rgb(226, 226, 226);
+    margin-top: -1px;
+    margin-right: 6px;
+}
+
+.sec-a1{
+    float: left;
+    height: 200px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgb(216, 5, 107);
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
+#nazare{
+    background-color: rgb(0, 0, 0);
+}
+
+.ma-1{
+    color: rgb(0, 0, 0);
+    font-size: 7pt;
+}
+
+#nazare:hover{
+    background-image: url(img/nazare.jpeg);
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+}
+
+#pingu:hover{
+    background-image: url(img/pingu.jpeg);
+    background-size: 100% 100%;
+}
+
+.sec-a2{
+    float: left;
+    height: 90px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
+    margin-left: 4%;
+    margin-top: 15px;
+}
+
+.sec-a2:hover{
+    background-color: rgb(216, 5, 107);
+}
+
+.sec-a3{
+    float: left;
+    height: 200px;
+    border: 1px solid rgb(0,0,0);
+    background-color: rgb(216, 5, 107);
+    margin-left: 2.5%;
+    margin-top: 21px;
+}
+
+#aqui:hover{
+    background-color: rgb(0, 0, 0);
+    background-image: url(img/Avatar-Maker.png);
+    background-size: 100% 100%;
+}
+
+#chad{
+    background-color: rgb(0, 0, 0);
+}
+
+#chad:hover{
+    background-image: url(img/chad.jpeg);
+    background-size: 100% 100%;
+}
+
+footer{
+    height: 110px;
+    border: 2px solid rgb(0,0,0);
+    background-color: rgb(216, 5, 107);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    clear: both;
+}
+
+#sec-f1{
+    float: left;
+    height: 90px;
+    background-image: url(img/git.png);
+    background-size: 100% 100%;
+    margin-top: 8px;
+    margin-left: 35%;
+ }
+
+#sec-f2{
+    float: right;
+    height: 90px;
+    background-image: url(img/in.png);
+    background-size: 100% 100%;
+    margin-top: 8px;
+    margin-right: 35%;
+    border-radius: 100%;  
+}
